@@ -3,7 +3,7 @@ import ReactDOM from "react-dom/client";
 
 // React Element=>
 
-const jsxHeading = <h1 className="heading">Namaste React using JSX</h1>;
+const jsxElement = <h1 className="heading">Namaste React using JSX</h1>;
 
 // React Functional Component =>
 
@@ -19,7 +19,7 @@ const Title = () => {
 const HeadingComponent = () => (
   <div id="container">
     <Title />
-    <h2>{number}</h2>
+    {jsxElement}
     <h1 className="heading">
       Namaste React Functional component without return{" "}
     </h1>
